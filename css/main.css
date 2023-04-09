@@ -1,259 +1,256 @@
-@import url('https://fonts.googleapis.com/css2?family=Oregano:ital@1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oregano:ital@1&display=swap");
 
 html {
-    font-family: Verdana, Geneva, sans-serif;
+  font-family: futura-pt, Verdana, Geneva, sans-serif;
 }
 
 h1 {
-    font-weight: 500;
-    color: white;
-    font-size: 4rem;
+  font-weight: 500;
+  color: white;
+  font-size: 4rem;
 }
 
 h2 {
-    font-weight: 500;
-    font-size: 2.5rem;
+  font-weight: 500;
+  font-size: 2.5rem;
 }
 
 p {
-    max-width: 34rem;
-    word-wrap: break-word;
+  max-width: 34rem;
+  word-wrap: break-word;
 }
 
 main {
-    max-width: 100vw;
+  max-width: 100vw;
 }
 
 main section {
-    padding: 4rem;
+  padding: 4rem;
 }
 
 /* HEADER SECTION */
 header {
-    background-color: #144272;
-    padding: 2rem;
-    display: flex;
-    flex-wrap: wrap;
+  background-color: #144272;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .main-nav {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
 }
 
-.main-nav a{
-    text-decoration: none;
-    color: white;
-    margin: 1rem;
-    margin-bottom: 0;
+.main-nav a {
+  text-decoration: none;
+  color: white;
+  margin: 1rem;
+  margin-bottom: 0;
 }
 
 .meex-logo {
-    font-family: 'Oregano', cursive;
-    font-size: 4rem;
-    color: white;
-    text-decoration: none;
+  font-family: "Oregano", cursive;
+  font-size: 4rem;
+  color: white;
+  text-decoration: none;
 }
 
 @media (min-width: 35rem) {
-    header {
-        flex: 1fr 1fr;
-    }
+  header {
+    flex: 1fr 1fr;
+  }
 
-    .main-nav {
-        flex: 2;
-        justify-content: space-around;
-    }
+  .main-nav {
+    flex: 2;
+    justify-content: space-around;
+  }
 
-    .meex-logo {
-        flex: 1;
-    }
+  .meex-logo {
+    flex: 1;
+  }
 }
-
 
 /* INTRO SECTION */
 
 #intro {
-    background-color: #00325A;
-    color: white;
-    display: flex;
-    flex-wrap: wrap;
+  background-color: #00325a;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-#intro img { 
-    max-width: 100%;
-    height: auto;
+#intro img {
+  max-width: 100%;
+  height: auto;
 }
-
 
 @media (min-width: 35rem) {
-    #intro {
-        justify-content: space-between;
-    }
-    #intro .desc {
-        flex: 1;
-        margin-top: 10rem;
-    }
+  #intro {
+    justify-content: space-between;
+  }
+  #intro .desc {
+    flex: 1;
+    margin-top: 10rem;
+  }
 
-    #intro img {
-        flex: 1;
-        object-fit: cover;
-    }
+  #intro img {
+    flex: 1;
+    object-fit: cover;
+  }
 }
 
 /* THE APP SECTION */
 
 #app {
-    background-color: #E5E5E5;
-    display: flex;
-    flex-wrap: wrap;
+  background-color: #e5e5e5;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .app-content {
-    padding: 0;
+  padding: 0;
 }
 
-
 @media (min-width: 35rem) {
-    #app h2 {
-        flex: 1;
-    }
+  #app h2 {
+    flex: 1;
+  }
 
-    .app-content {
-        flex: 1;
-        margin-left: 2rem;
-    }
+  .app-content {
+    flex: 1;
+    margin-left: 2rem;
+  }
 }
 
 /* FEATURES SECTION */
 
-
+video {
+  border-radius: 2rem;
+  width: 20rem;
+  max-height: 41.2rem;
+}
 
 /* STORY SECTION */
 
 #story {
-    background-color: #00325A;
-    display: flex;
-    flex-wrap: wrap;
-    color: white;
+  background-color: #00325a;
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
 }
 
 .story-content {
-    padding: 0;
+  padding: 0;
 }
 
 @media (min-width: 35rem) {
-    #story h2 {
-        flex: 1;
-    }
+  #story h2 {
+    flex: 1;
+  }
 
-    .story-content {
-        flex: 1;
-        margin-left: 2rem;
-    }
+  .story-content {
+    flex: 1;
+    margin-left: 2rem;
+  }
 }
-
 
 /* PROCESS SECTION */
 
 #process {
-    background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 
 #process section {
-    padding: 0;
-    margin-bottom: 4rem;
+  padding: 0;
+  margin-bottom: 4rem;
 }
 
 .process-content1 {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .process-content2 {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .process-content3 {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .desc1-img {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .desc1-img1 {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .desc2-img2 {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .desc2-img {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .desc2-img img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .desc3-img {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 .desc3-img img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 @media (min-width: 35rem) {
+  .desc1-item {
+    flex: 1;
+  }
 
-    .desc1-item {
-        flex: 1;
-    }
+  .desc1-img {
+    flex: 1;
+  }
 
-    .desc1-img {
-        flex: 1;
-    }
+  .desc1-img1 {
+    flex: 1;
+    margin-top: 2rem;
+  }
 
-    .desc1-img1 {
-        flex: 1;
-        margin-top: 2rem;
-    }
+  .desc1-img2 {
+    flex: 1;
+  }
 
-    .desc1-img2 {
-        flex: 1;
-    }
+  .desc2-item {
+    flex: 1;
+  }
 
-    .desc2-item {
-        flex: 1;
-    }
+  .desc2-img {
+    flex: 1;
+  }
 
-    .desc2-img {
-        flex: 1;
-    }
+  .desc3-item {
+    flex: 1;
+  }
 
-    .desc3-item {
-        flex: 1;
-    }
-
-    .desc3-img {
-        flex: 1;
-    }
-
-
+  .desc3-img {
+    flex: 1;
+  }
 }
 
 /* FOOTER SECTION */
 
 footer {
-    background-color: #144272;
-    padding: 4rem;
-    padding-left: 6rem;
-    color: white;
+  background-color: #144272;
+  padding: 4rem;
+  padding-left: 6rem;
+  color: white;
 }
