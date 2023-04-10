@@ -15,9 +15,18 @@ h2 {
   font-size: 2.5rem;
 }
 
+h3 {
+  font-size: 1.6rem;
+}
+
+a {
+  font-size: 1.2rem;
+}
+
 p {
   max-width: 34rem;
-  word-wrap: break-word;
+  /* word-wrap: break-word; */
+  font-size: 1.3rem;
 }
 
 main {
@@ -49,6 +58,10 @@ header {
   margin-bottom: 0;
 }
 
+.main-nav a:hover {
+  text-decoration: underline;
+}
+
 .meex-logo {
   font-family: "Oregano", cursive;
   font-size: 4rem;
@@ -70,6 +83,9 @@ header {
     flex: 1;
   }
 }
+
+/*NAV MENU */
+
 
 /* INTRO SECTION */
 
@@ -112,6 +128,10 @@ header {
   padding: 0;
 }
 
+#app a:hover {
+  text-decoration: none;
+}
+
 @media (min-width: 35rem) {
   #app h2 {
     flex: 1;
@@ -127,8 +147,21 @@ header {
 
 video {
   border-radius: 2rem;
-  width: 20rem;
-  max-height: 41.2rem;
+  max-width: 100%;
+  height: auto;
+}
+
+#features section {
+  padding: 0;
+  margin-bottom: 4rem;
+}
+
+@media (min-width: 35rem) {
+  video {
+    border-radius: 2rem;
+    width: 20rem;
+    max-height: 41.2rem;
+  }
 }
 
 /* STORY SECTION */
