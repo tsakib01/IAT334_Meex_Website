@@ -29,6 +29,10 @@ p {
   font-size: 1.3rem;
 }
 
+em {
+  font-size: 1.3rem;
+}
+
 main {
   max-width: 100vw;
 }
@@ -217,12 +221,19 @@ video {
   flex-wrap: wrap;
 }
 
+.desc1-img img {
+  max-width: 100%;
+  height: auto;
+}
+
 .desc1-img1 {
   max-width: 100%;
+  height: auto;
 }
 
 .desc2-img2 {
   max-width: 100%;
+  height: auto;
 }
 
 .desc2-img {
@@ -232,6 +243,7 @@ video {
 
 .desc2-img img {
   max-width: 100%;
+  height: auto;
 }
 
 .desc3-img {
@@ -240,6 +252,7 @@ video {
 }
 .desc3-img img {
   max-width: 100%;
+  height: auto;
 }
 
 @media (min-width: 35rem) {
